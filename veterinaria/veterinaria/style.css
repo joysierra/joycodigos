@@ -1,0 +1,215 @@
+
+   
+
+
+.barra {
+    display: flex;
+    background-color: #daac00;
+    color: white;
+    height: 100px;
+    justify-content: space-evenly
+}
+
+.barra .logo {
+    display: flex;
+    width: 50px;
+    justify-items: flex-start;
+    align-self: center;
+}
+
+.barra .lista{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.barra .lista li {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin: 0px 20px;
+    height:  20px;
+}
+
+
+.barra .search {
+    
+    display: flex;
+    justify-items: flex-end;
+    align-self: center;
+}
+
+.barra .lupa {
+    float: right;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    
+}
+
+.barra .search input{
+    background-color: #fcc302;
+    padding: 2px;
+    border: none;
+}
+.contenedor1{
+    background-color: #fcc302; 
+} 
+   .seccion1{
+        display: flex;
+        justify-content:space-around;                       
+        color: white; 
+        background-color: #fcc302; 
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        
+      
+    }
+        .seccion1 .hijo1 {
+            align-self: center;               
+            width: 50%;
+                                    
+        }  
+            .seccion1 .hijo1 h1{
+                width: 80%; 
+            }   
+            
+            .seccion1 .hijo1 p{
+                width: 100%; 
+            } 
+            .seccion1 .hijo1 .padreBoton{
+                display: flex;
+                width: 100%; 
+                margin-top: 20px;                                   
+            }
+            .seccion1 .boton1{
+                background-color: aqua;
+                width: 30%;
+                padding: 10px;
+                margin: 0px 10px 0px 0px;
+                border-radius: 10px;
+            }
+            .seccion1 .boton2{  
+                background-color: #fcc302;
+                border: 1px solid white;                 
+                width: 30%; 
+                padding: 10px;  
+                border-radius: 10px;                
+            }                    
+            .seccion2{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                flex-direction: row;
+            }
+           .seccion2 .hijo1{
+            justify-content: center;
+            width: 45%;
+            
+           }
+           .seccion2 .hijo1 .botton2{
+            background-color: aqua;
+            width: 30%;
+            padding: 10px;
+            margin: 0px 10px 0px 0px;
+            border-radius: 10px;
+           } 
+
+           .seccion3 .hijo1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fcc302;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            color: white;
+           }
+           
+           .seccion3{
+            margin: 0;
+
+           }
+           .contenedor3{
+            background-color: #fcc302;
+            font-family: Arial, Helvetica, sans-serif;
+           }
+
+           .papa{
+            width: 751px;
+            margin-left: auto;
+            margin-right: auto;
+           }
+
+           .fila1{
+            padding: 32px 3px 1px 0px;
+            text-align: center;
+            color: white;
+           }
+
+           .fila2{
+            display: flex;
+            color: white;
+            justify-content: space-around;
+
+           }
+           .fila2 .item{
+            text-align: center;
+           }
+           .fila2 h2> span{
+            color: black;
+            text-decoration: line-through;
+           }
+
+           .fila2 .item button{
+            background: #00bec9;
+            border: 0px;
+            padding: 10px;
+            border-radius: 25px;
+            width: 100px;
+            margin: 10px;
+            color: white;
+           }
+
+
+
+          .seccion4{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: row;
+          }
+
+          .seccion4 .hijo2{
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            
+
+          }
+          
+          .seccion4 .hijo1{
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            height: 2px;
+            flex-wrap: nowrap;
+            align-items: center;
+            text-align: flex-end;
+          }
+
+
+
+          .seccion4 .hijo1 .botton2{
+            display: flex;
+            background-color: aqua;
+            width: 30%;
+            padding: 10px;
+            margin: 0px 10px 0px 0px;
+            border-radius: 10px;
+          }
